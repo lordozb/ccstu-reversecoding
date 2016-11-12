@@ -82,7 +82,7 @@
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Toggle navigation</span
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -101,7 +101,7 @@
                         <li><a href="#"><i class="fa fa-user fa-fw"></i> Team <?php echo $user; ?></a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="index.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -120,7 +120,7 @@
                         <?php
 
                             if($flag == 0){
-                                echo" <li><a href=\"blank.html\"><i class=\"fa fa-dashboard fa-fw\"></i> Solve your program</a></li>";
+                                echo" <li><a href=\"solve.php\"><i class=\"fa fa-dashboard fa-fw\"></i> Solve your program</a></li>";
                             }else if($flag == 1){
                                 echo "<li><a href=\"#\"><i class=\"fa fa-files-o fa-fw\"></i> Decode programs<span class=\"fa arrow\"></span></a><ul class=\"nav nav-second-level\">";
                                 $sql1 = "SELECT ID, name FROM users";
