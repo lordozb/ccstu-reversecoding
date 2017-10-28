@@ -4,10 +4,10 @@
     $password = "1029384756karan";
     $dbname = "reverse_coding";
     $user = 0;
-    // Create connection
+    // Create db connection
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    // Check connection
+    // Check db connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     } 
