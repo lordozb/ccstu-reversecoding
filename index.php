@@ -34,7 +34,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Reverse Coding</title>
+    <title>Reverse Coding Sat'17</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +81,7 @@
                         </div>
 
                     </div>
-                    <p class = "text-center">If you are the host of Reverse Coding, <a href = "host.php">Click here</a></p>
+                    <p class = "text-center">If you are the host of Reverse Coding, <a href = "host.php"> Please Click here</a></p>
 
             <?php
                 }else{
